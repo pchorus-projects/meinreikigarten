@@ -6,10 +6,15 @@
     "generate": "nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare",
+    "lint": "eslint --ext \".js,.ts,.vue\" --ignore-path .gitignore .",
     "prettier": "prettier --write .",
     "prettier-check": "prettier --check ."
   },
   "devDependencies": {
+    "@nuxtjs/eslint-config-typescript": "^11.0.0",
+    "eslint": "^8.25.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-nuxt": "^4.0.0",
     "nuxt": "3.0.0-rc.11",
     "prettier": "^2.7.1",
     "sass": "^1.55.0"
