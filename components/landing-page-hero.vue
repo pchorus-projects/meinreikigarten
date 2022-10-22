@@ -11,7 +11,7 @@
         />
       </NuxtLink>
       <p class="hero__gap"></p>
-      <h1 class="hero__heading u-heading u-heading--white">Platzhalter</h1>
+      <h1 class="hero__heading u-heading u-heading--white">Wer seinem Herz folgt,<br />kommt niemals vom Weg ab.</h1>
     </div>
   </section>
 </template>
