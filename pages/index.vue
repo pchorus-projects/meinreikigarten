@@ -1,0 +1,3 @@
+<template>
+  <LandingPageHero></LandingPageHero>
+</template>

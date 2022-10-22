@@ -1,0 +1,16 @@
+@use 'variables';
+
+@font-face {
+  font-family: 'ModestyFreshStyle';
+  font-style: normal;
+  font-weight: normal;
+  font-display: swap;
+  src: url('~/assets/fonts/modesty-fresh-style.ttf') format('truetype');
+}
+
+body {
+  font-family: variables.$font-family-default;
+  color: variables.$font-color-default;
+  margin: 0;
+  padding: 0;
+}
