@@ -2,7 +2,7 @@ $font-color-default: #707070;
 $font-color-white: #e0e0e0;
 // TODO: find default font
 $font-family-default: 'Arial', 'San Francisco', Arial, sans-serif;
-$font-family-header-default: 'ModestyFreshStyle', Arial, sans-serif;
+$font-family-header-default: 'Clicker Script', cursive;
 
 $font-size-xs: 10px;
 $font-size-s: 14px;
@@ -35,7 +35,7 @@ $space-xl: 48px;
 $space-xxl: 64px;
 $space-xxxl: 120px;
 
-// $max-content-width: 1180px;
+$max-content-width: 1180px;
 
 $max-width-mobile: 567.98px;
 $max-width-mobile-landscape: 767.98px;
@@ -46,3 +46,8 @@ $min-width-desktop-large: 1200px;
 $background-color-default: #ffffff;
 $background-color-alternate: #f7f6f4;
 $background-color-dark: #4b4b4d;
+
+$border-radius-default: 12px;
+$border-radius-small: 4px;
+
+$border-radius-image: $border-radius-small;

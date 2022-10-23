@@ -38,16 +38,11 @@
     right: 0;
     bottom: 0;
     left: 0;
-    padding: variables.$space-m;
-    background-image: linear-gradient(
-      //rgba(0, 0, 0, 0.7) 0%,
-      //rgba(0, 0, 0, 0) 30%,
-      rgba(0, 0, 0, 0) 70%,
-      rgba(0, 0, 0, 0.7) 100%
-    );
+    padding: variables.$space-m variables.$space-xxxl;
+    background-image: linear-gradient(rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0.4) 70%, rgba(0, 0, 0, 0.7) 100%);
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     color: variables.$font-color-white;
   }
 
@@ -61,7 +56,12 @@
     justify-content: center;
     height: 460px;
     width: 460px;
-    background: radial-gradient(circle, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.3) 25%, rgba(0, 0, 0, 0) 70%);
+    background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 0.6) 0%,
+      rgba(255, 255, 255, 0.6) 25%,
+      rgba(255, 255, 255, 0) 70%
+    );
   }
 
   &__logo {
@@ -88,7 +88,15 @@
 
 @media (max-width: variables.$max-width-tablet) {
   .hero {
+    &__logo-container {
+      width: 420px;
+      height: 420px;
+    }
+    &__logo {
+      width: 340px;
+    }
     &__heading {
+      font-size: variables.$font-size-xxl;
       margin-top: variables.$space-s;
       margin-bottom: variables.$space-xxs;
     }
@@ -101,12 +109,16 @@
       min-height: 600px;
     }
     &__content {
-      background-image: linear-gradient(
-        //rgba(0, 0, 0, 0.7) 0%,
-        //rgba(0, 0, 0, 0) 45%,
-        rgba(0, 0, 0, 0) 55%,
-        rgba(0, 0, 0, 0.7) 100%
-      );
+      align-items: center;
+      padding: variables.$space-m variables.$space-m;
+      background-image: linear-gradient(rgba(0, 0, 0, 0) 55%, rgba(0, 0, 0, 0.7) 100%);
+    }
+    &__logo-container {
+      width: 380px;
+      height: 380px;
+    }
+    &__logo {
+      width: 300px;
     }
     &__heading {
       margin-top: variables.$space-m;
