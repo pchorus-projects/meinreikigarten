@@ -1,6 +1,10 @@
 <template>
   <section class="hero">
-    <img class="hero__image" src="~/assets/images/landing-page-hero.jpg" alt="Garten mit Bachlauf und Buddha" />
+    <img
+      class="hero__image"
+      src="/images/conscious-design-bxlB513KSQ8-unsplash.jpg"
+      alt="Garten mit Bachlauf und Buddha"
+    />
     <div class="hero__content">
       <!--      <Navigation></Navigation>-->
       <NuxtLink to="/#willkommen" class="hero__logo-container">
@@ -38,16 +42,17 @@
     right: 0;
     bottom: 0;
     left: 0;
-    padding: variables.$space-m;
+    padding: variables.$space-m variables.$space-xxxl;
     background-image: linear-gradient(
       //rgba(0, 0, 0, 0.7) 0%,
       //rgba(0, 0, 0, 0) 30%,
-      rgba(0, 0, 0, 0) 70%,
+      rgba(0, 0, 0, 0) 50%,
+      rgba(0, 0, 0, 0.4) 70%,
       rgba(0, 0, 0, 0.7) 100%
     );
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     color: variables.$font-color-white;
   }
 
@@ -61,7 +66,12 @@
     justify-content: center;
     height: 460px;
     width: 460px;
-    background: radial-gradient(circle, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.3) 25%, rgba(0, 0, 0, 0) 70%);
+    background: radial-gradient(
+      circle,
+      rgba(255, 255, 255, 0.8) 0%,
+      rgba(255, 255, 255, 0.8) 25%,
+      rgba(255, 255, 255, 0) 70%
+    );
   }
 
   &__logo {

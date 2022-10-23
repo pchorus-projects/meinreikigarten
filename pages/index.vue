@@ -25,7 +25,7 @@ export default {
           ],
           image: {
             altText: 'TODO',
-            path: '/images/landing-page-hero.jpg',
+            path: '/images/jay-castor-7AcMUSYRZpU-unsplash.jpg',
           },
         },
         {
@@ -38,7 +38,7 @@ export default {
           ],
           image: {
             altText: 'TODO',
-            path: '/images/landing-page-hero.jpg',
+            path: '/images/sabine-schulte-Dj8reMyS-Z4-unsplash.jpg',
           },
         },
         {
@@ -49,7 +49,7 @@ export default {
           ],
           image: {
             altText: 'TODO',
-            path: '/images/landing-page-hero.jpg',
+            path: '/images/rodolfo-sanches-carvalho-9W-OGQjQwlk-unsplash.jpg',
           },
         },
       ],
