@@ -14,3 +14,111 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.u-font-xs {
+  font-size: variables.$font-size-xs;
+  line-height: variables.$line-height-xs;
+  &--paragraph {
+    margin-bottom: variables.$line-height-xs;
+  }
+}
+
+.u-font-s {
+  font-size: variables.$font-size-s;
+  line-height: variables.$line-height-s;
+  &--paragraph {
+    margin-bottom: variables.$line-height-s;
+  }
+}
+
+.u-font-m {
+  font-size: variables.$font-size-m;
+  line-height: variables.$line-height-m;
+  &--paragraph {
+    margin-bottom: variables.$line-height-m;
+  }
+}
+
+.u-font-l {
+  font-size: variables.$font-size-l;
+  line-height: variables.$line-height-l;
+  &--paragraph {
+    margin-bottom: variables.$line-height-l;
+  }
+}
+
+.u-font-xl {
+  font-size: variables.$font-size-xl;
+  line-height: variables.$line-height-xl;
+  &--paragraph {
+    margin-bottom: variables.$line-height-l;
+  }
+}
+
+.u-font-xxl {
+  font-size: variables.$font-size-xxl;
+  line-height: variables.$line-height-xxl;
+  &--paragraph {
+    margin-bottom: variables.$line-height-l;
+  }
+}
+
+.heading {
+  font-family: variables.$font-family-header-default;
+  font-weight: 600;
+  color: variables.$font-color-default;
+
+  &--color-white {
+    color: variables.$font-color-white;
+  }
+
+  &--xs {
+    @extend .u-font-xs;
+    &-paragraph {
+      @extend .u-font-xs--paragraph;
+    }
+  }
+
+  &--s {
+    @extend .u-font-s;
+    &-paragraph {
+      @extend .u-font-s--paragraph;
+    }
+  }
+
+  &--m {
+    @extend .u-font-m;
+    &-paragraph {
+      @extend .u-font-m--paragraph;
+    }
+  }
+
+  &--l {
+    @extend .u-font-l;
+    &-paragraph {
+      @extend .u-font-l--paragraph;
+    }
+  }
+
+  &--xl {
+    @extend .u-font-xl;
+    &-paragraph {
+      @extend .u-font-xl--paragraph;
+    }
+  }
+
+  &--xxl {
+    @extend .u-font-xxl;
+    &-paragraph {
+      @extend .u-font-xxl--paragraph;
+    }
+  }
+}
+
+.u-max-page-width {
+  max-width: variables.$max-content-width;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 variables.$space-m;
+  box-sizing: border-box;
+}
